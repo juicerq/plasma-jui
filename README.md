@@ -31,6 +31,8 @@ Feito e testado no CachyOS com Plasma 6.7 no Wayland.
 
 **Resposta** — animações instantâneas (`AnimationDurationFactor=0`) e bordas de tela sem atraso.
 
+**Notificações** — no topo, ao centro. Por padrão elas seguem o ícone da bandeja; com o painel embaixo, isso as jogava para o rodapé.
+
 **Ícones** — Papirus Dark.
 
 ## Instalar

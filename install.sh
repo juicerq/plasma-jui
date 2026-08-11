@@ -29,6 +29,9 @@ kwriteconfig6 --file kwinrc --group ScreenEdges --key TimeThreshold 0
 kwriteconfig6 --file kwinrc --group ScreenEdges --key ReActivationThreshold 0
 qdbus6 org.kde.KWin /KWin reconfigure
 
+echo "==> movendo as notificacoes para o topo"
+kwriteconfig6 --file plasmanotifyrc --group Notifications --key PopupPosition TopCenter
+
 echo "==> iniciando plasmashell"
 setsid plasmashell >/dev/null 2>&1 </dev/null &
 sleep 7

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="348" version="1.1">
+<defs id="current-color-scheme">
+<style type="text/css">
+.ColorScheme-Text { color:#eff0f1; }
+.ColorScheme-Background { color:#31363b; }
+.ColorScheme-Highlight { color:#3daee9; }
+.ColorScheme-NegativeText { color:#da4453; }
+.ColorScheme-ButtonFocus { color:#3daee9; }
+</style>
+</defs>
+<g id="normal-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="0" width="8" height="8" opacity="0"/></g>
+<g id="normal-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="0" width="8" height="1" opacity="0"/></g>
+<g id="normal-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="0" width="8" height="1.5" opacity="0"/><rect x="26.0" y="0" width="4" height="1.5" opacity="0.35"/></g>
+<g id="normal-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="0" width="1" height="8" opacity="0"/></g>
+<g id="normal-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="0" width="1" height="8" opacity="0"/></g>
+<g id="normal-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="0" width="1" height="1" opacity="0"/></g>
+<g id="normal-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="0" width="1" height="1" opacity="0"/></g>
+<g id="normal-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="0" width="1" height="1.5" opacity="0"/></g>
+<g id="normal-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="0" width="1" height="1.5" opacity="0"/></g>
+<g id="hover-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="14" width="8" height="8" opacity="0"/></g>
+<g id="hover-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="14" width="8" height="1" opacity="0"/></g>
+<g id="hover-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="14" width="8" height="1.5" opacity="0"/><rect x="26.0" y="14" width="4" height="1.5" opacity="0.6"/></g>
+<g id="hover-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="14" width="1" height="8" opacity="0"/></g>
+<g id="hover-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="14" width="1" height="8" opacity="0"/></g>
+<g id="hover-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="14" width="1" height="1" opacity="0"/></g>
+<g id="hover-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="14" width="1" height="1" opacity="0"/></g>
+<g id="hover-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="14" width="1" height="1.5" opacity="0"/></g>
+<g id="hover-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="14" width="1" height="1.5" opacity="0"/></g>
+<g id="focus-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="28" width="8" height="8" opacity="0"/></g>
+<g id="focus-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="28" width="8" height="1" opacity="0"/></g>
+<g id="focus-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="28" width="8" height="1.5" opacity="0"/><rect x="26.0" y="28" width="4" height="1.5" opacity="1.0"/></g>
+<g id="focus-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="28" width="1" height="8" opacity="0"/></g>
+<g id="focus-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="28" width="1" height="8" opacity="0"/></g>
+<g id="focus-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="28" width="1" height="1" opacity="0"/></g>
+<g id="focus-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="28" width="1" height="1" opacity="0"/></g>
+<g id="focus-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="28" width="1" height="1.5" opacity="0"/></g>
+<g id="focus-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="28" width="1" height="1.5" opacity="0"/></g>
+<g id="minimized-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="42" width="8" height="8" opacity="0"/></g>
+<g id="minimized-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="42" width="8" height="1" opacity="0"/></g>
+<g id="minimized-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="42" width="8" height="1.5" opacity="0"/><rect x="26.0" y="42" width="4" height="1.5" opacity="0.25"/></g>
+<g id="minimized-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="42" width="1" height="8" opacity="0"/></g>
+<g id="minimized-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="42" width="1" height="8" opacity="0"/></g>
+<g id="minimized-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="42" width="1" height="1" opacity="0"/></g>
+<g id="minimized-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="42" width="1" height="1" opacity="0"/></g>
+<g id="minimized-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="42" width="1" height="1.5" opacity="0"/></g>
+<g id="minimized-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="42" width="1" height="1.5" opacity="0"/></g>
+<g id="attention-center" class="ColorScheme-NegativeText" fill="currentColor"><rect x="0" y="56" width="8" height="8" opacity="0"/></g>
+<g id="attention-top" class="ColorScheme-NegativeText" fill="currentColor"><rect x="12" y="56" width="8" height="1" opacity="0"/></g>
+<g id="attention-bottom" class="ColorScheme-NegativeText" fill="currentColor"><rect x="24" y="56" width="8" height="1.5" opacity="0"/><rect x="26.0" y="56" width="4" height="1.5" opacity="0.85"/></g>
+<g id="attention-left" class="ColorScheme-NegativeText" fill="currentColor"><rect x="36" y="56" width="1" height="8" opacity="0"/></g>
+<g id="attention-right" class="ColorScheme-NegativeText" fill="currentColor"><rect x="41" y="56" width="1" height="8" opacity="0"/></g>
+<g id="attention-topleft" class="ColorScheme-NegativeText" fill="currentColor"><rect x="46" y="56" width="1" height="1" opacity="0"/></g>
+<g id="attention-topright" class="ColorScheme-NegativeText" fill="currentColor"><rect x="51" y="56" width="1" height="1" opacity="0"/></g>
+<g id="attention-bottomleft" class="ColorScheme-NegativeText" fill="currentColor"><rect x="56" y="56" width="1" height="1.5" opacity="0"/></g>
+<g id="attention-bottomright" class="ColorScheme-NegativeText" fill="currentColor"><rect x="61" y="56" width="1" height="1.5" opacity="0"/></g>
+<g id="progress-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="70" width="8" height="8" opacity="0"/></g>
+<g id="progress-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="70" width="8" height="1" opacity="0"/></g>
+<g id="progress-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="70" width="8" height="1.5" opacity="0"/></g>
+<g id="progress-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="70" width="1" height="8" opacity="0"/></g>
+<g id="progress-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="70" width="1" height="8" opacity="0"/></g>
+<g id="progress-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="70" width="1" height="1" opacity="0"/></g>
+<g id="progress-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="70" width="1" height="1" opacity="0"/></g>
+<g id="progress-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="70" width="1" height="1.5" opacity="0"/></g>
+<g id="progress-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="70" width="1" height="1.5" opacity="0"/></g>
+<g id="east-normal-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="84" width="8" height="8" opacity="0"/></g>
+<g id="east-normal-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="84" width="8" height="1" opacity="0"/></g>
+<g id="east-normal-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="84" width="8" height="1.5" opacity="0"/><rect x="26.0" y="84" width="4" height="1.5" opacity="0.35"/></g>
+<g id="east-normal-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="84" width="1" height="8" opacity="0"/></g>
+<g id="east-normal-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="84" width="1" height="8" opacity="0"/></g>
+<g id="east-normal-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="84" width="1" height="1" opacity="0"/></g>
+<g id="east-normal-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="84" width="1" height="1" opacity="0"/></g>
+<g id="east-normal-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="84" width="1" height="1.5" opacity="0"/></g>
+<g id="east-normal-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="84" width="1" height="1.5" opacity="0"/></g>
+<g id="east-hover-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="98" width="8" height="8" opacity="0"/></g>
+<g id="east-hover-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="98" width="8" height="1" opacity="0"/></g>
+<g id="east-hover-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="98" width="8" height="1.5" opacity="0"/><rect x="26.0" y="98" width="4" height="1.5" opacity="0.6"/></g>
+<g id="east-hover-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="98" width="1" height="8" opacity="0"/></g>
+<g id="east-hover-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="98" width="1" height="8" opacity="0"/></g>
+<g id="east-hover-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="98" width="1" height="1" opacity="0"/></g>
+<g id="east-hover-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="98" width="1" height="1" opacity="0"/></g>
+<g id="east-hover-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="98" width="1" height="1.5" opacity="0"/></g>
+<g id="east-hover-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="98" width="1" height="1.5" opacity="0"/></g>
+<g id="east-focus-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="112" width="8" height="8" opacity="0"/></g>
+<g id="east-focus-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="112" width="8" height="1" opacity="0"/></g>
+<g id="east-focus-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="112" width="8" height="1.5" opacity="0"/><rect x="26.0" y="112" width="4" height="1.5" opacity="1.0"/></g>
+<g id="east-focus-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="112" width="1" height="8" opacity="0"/></g>
+<g id="east-focus-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="112" width="1" height="8" opacity="0"/></g>
+<g id="east-focus-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="112" width="1" height="1" opacity="0"/></g>
+<g id="east-focus-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="112" width="1" height="1" opacity="0"/></g>
+<g id="east-focus-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="112" width="1" height="1.5" opacity="0"/></g>
+<g id="east-focus-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="112" width="1" height="1.5" opacity="0"/></g>
+<g id="east-minimized-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="126" width="8" height="8" opacity="0"/></g>
+<g id="east-minimized-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="126" width="8" height="1" opacity="0"/></g>
+<g id="east-minimized-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="126" width="8" height="1.5" opacity="0"/><rect x="26.0" y="126" width="4" height="1.5" opacity="0.25"/></g>
+<g id="east-minimized-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="126" width="1" height="8" opacity="0"/></g>
+<g id="east-minimized-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="126" width="1" height="8" opacity="0"/></g>
+<g id="east-minimized-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="126" width="1" height="1" opacity="0"/></g>
+<g id="east-minimized-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="126" width="1" height="1" opacity="0"/></g>
+<g id="east-minimized-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="126" width="1" height="1.5" opacity="0"/></g>
+<g id="east-minimized-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="126" width="1" height="1.5" opacity="0"/></g>
+<g id="east-attention-center" class="ColorScheme-NegativeText" fill="currentColor"><rect x="0" y="140" width="8" height="8" opacity="0"/></g>
+<g id="east-attention-top" class="ColorScheme-NegativeText" fill="currentColor"><rect x="12" y="140" width="8" height="1" opacity="0"/></g>
+<g id="east-attention-bottom" class="ColorScheme-NegativeText" fill="currentColor"><rect x="24" y="140" width="8" height="1.5" opacity="0"/><rect x="26.0" y="140" width="4" height="1.5" opacity="0.85"/></g>
+<g id="east-attention-left" class="ColorScheme-NegativeText" fill="currentColor"><rect x="36" y="140" width="1" height="8" opacity="0"/></g>
+<g id="east-attention-right" class="ColorScheme-NegativeText" fill="currentColor"><rect x="41" y="140" width="1" height="8" opacity="0"/></g>
+<g id="east-attention-topleft" class="ColorScheme-NegativeText" fill="currentColor"><rect x="46" y="140" width="1" height="1" opacity="0"/></g>
+<g id="east-attention-topright" class="ColorScheme-NegativeText" fill="currentColor"><rect x="51" y="140" width="1" height="1" opacity="0"/></g>
+<g id="east-attention-bottomleft" class="ColorScheme-NegativeText" fill="currentColor"><rect x="56" y="140" width="1" height="1.5" opacity="0"/></g>
+<g id="east-attention-bottomright" class="ColorScheme-NegativeText" fill="currentColor"><rect x="61" y="140" width="1" height="1.5" opacity="0"/></g>
+<g id="east-progress-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="154" width="8" height="8" opacity="0"/></g>
+<g id="east-progress-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="154" width="8" height="1" opacity="0"/></g>
+<g id="east-progress-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="154" width="8" height="1.5" opacity="0"/></g>
+<g id="east-progress-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="154" width="1" height="8" opacity="0"/></g>
+<g id="east-progress-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="154" width="1" height="8" opacity="0"/></g>
+<g id="east-progress-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="154" width="1" height="1" opacity="0"/></g>
+<g id="east-progress-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="154" width="1" height="1" opacity="0"/></g>
+<g id="east-progress-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="154" width="1" height="1.5" opacity="0"/></g>
+<g id="east-progress-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="154" width="1" height="1.5" opacity="0"/></g>
+<g id="north-normal-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="168" width="8" height="8" opacity="0"/></g>
+<g id="north-normal-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="168" width="8" height="1" opacity="0"/></g>
+<g id="north-normal-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="168" width="8" height="1.5" opacity="0"/><rect x="26.0" y="168" width="4" height="1.5" opacity="0.35"/></g>
+<g id="north-normal-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="168" width="1" height="8" opacity="0"/></g>
+<g id="north-normal-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="168" width="1" height="8" opacity="0"/></g>
+<g id="north-normal-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="168" width="1" height="1" opacity="0"/></g>
+<g id="north-normal-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="168" width="1" height="1" opacity="0"/></g>
+<g id="north-normal-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="168" width="1" height="1.5" opacity="0"/></g>
+<g id="north-normal-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="168" width="1" height="1.5" opacity="0"/></g>
+<g id="north-hover-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="182" width="8" height="8" opacity="0"/></g>
+<g id="north-hover-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="182" width="8" height="1" opacity="0"/></g>
+<g id="north-hover-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="182" width="8" height="1.5" opacity="0"/><rect x="26.0" y="182" width="4" height="1.5" opacity="0.6"/></g>
+<g id="north-hover-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="182" width="1" height="8" opacity="0"/></g>
+<g id="north-hover-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="182" width="1" height="8" opacity="0"/></g>
+<g id="north-hover-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="182" width="1" height="1" opacity="0"/></g>
+<g id="north-hover-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="182" width="1" height="1" opacity="0"/></g>
+<g id="north-hover-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="182" width="1" height="1.5" opacity="0"/></g>
+<g id="north-hover-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="182" width="1" height="1.5" opacity="0"/></g>
+<g id="north-focus-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="196" width="8" height="8" opacity="0"/></g>
+<g id="north-focus-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="196" width="8" height="1" opacity="0"/></g>
+<g id="north-focus-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="196" width="8" height="1.5" opacity="0"/><rect x="26.0" y="196" width="4" height="1.5" opacity="1.0"/></g>
+<g id="north-focus-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="196" width="1" height="8" opacity="0"/></g>
+<g id="north-focus-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="196" width="1" height="8" opacity="0"/></g>
+<g id="north-focus-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="196" width="1" height="1" opacity="0"/></g>
+<g id="north-focus-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="196" width="1" height="1" opacity="0"/></g>
+<g id="north-focus-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="196" width="1" height="1.5" opacity="0"/></g>
+<g id="north-focus-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="196" width="1" height="1.5" opacity="0"/></g>
+<g id="north-minimized-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="210" width="8" height="8" opacity="0"/></g>
+<g id="north-minimized-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="210" width="8" height="1" opacity="0"/></g>
+<g id="north-minimized-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="210" width="8" height="1.5" opacity="0"/><rect x="26.0" y="210" width="4" height="1.5" opacity="0.25"/></g>
+<g id="north-minimized-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="210" width="1" height="8" opacity="0"/></g>
+<g id="north-minimized-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="210" width="1" height="8" opacity="0"/></g>
+<g id="north-minimized-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="210" width="1" height="1" opacity="0"/></g>
+<g id="north-minimized-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="210" width="1" height="1" opacity="0"/></g>
+<g id="north-minimized-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="210" width="1" height="1.5" opacity="0"/></g>
+<g id="north-minimized-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="210" width="1" height="1.5" opacity="0"/></g>
+<g id="north-attention-center" class="ColorScheme-NegativeText" fill="currentColor"><rect x="0" y="224" width="8" height="8" opacity="0"/></g>
+<g id="north-attention-top" class="ColorScheme-NegativeText" fill="currentColor"><rect x="12" y="224" width="8" height="1" opacity="0"/></g>
+<g id="north-attention-bottom" class="ColorScheme-NegativeText" fill="currentColor"><rect x="24" y="224" width="8" height="1.5" opacity="0"/><rect x="26.0" y="224" width="4" height="1.5" opacity="0.85"/></g>
+<g id="north-attention-left" class="ColorScheme-NegativeText" fill="currentColor"><rect x="36" y="224" width="1" height="8" opacity="0"/></g>
+<g id="north-attention-right" class="ColorScheme-NegativeText" fill="currentColor"><rect x="41" y="224" width="1" height="8" opacity="0"/></g>
+<g id="north-attention-topleft" class="ColorScheme-NegativeText" fill="currentColor"><rect x="46" y="224" width="1" height="1" opacity="0"/></g>
+<g id="north-attention-topright" class="ColorScheme-NegativeText" fill="currentColor"><rect x="51" y="224" width="1" height="1" opacity="0"/></g>
+<g id="north-attention-bottomleft" class="ColorScheme-NegativeText" fill="currentColor"><rect x="56" y="224" width="1" height="1.5" opacity="0"/></g>
+<g id="north-attention-bottomright" class="ColorScheme-NegativeText" fill="currentColor"><rect x="61" y="224" width="1" height="1.5" opacity="0"/></g>
+<g id="north-progress-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="238" width="8" height="8" opacity="0"/></g>
+<g id="north-progress-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="238" width="8" height="1" opacity="0"/></g>
+<g id="north-progress-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="238" width="8" height="1.5" opacity="0"/></g>
+<g id="north-progress-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="238" width="1" height="8" opacity="0"/></g>
+<g id="north-progress-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="238" width="1" height="8" opacity="0"/></g>
+<g id="north-progress-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="238" width="1" height="1" opacity="0"/></g>
+<g id="north-progress-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="238" width="1" height="1" opacity="0"/></g>
+<g id="north-progress-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="238" width="1" height="1.5" opacity="0"/></g>
+<g id="north-progress-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="238" width="1" height="1.5" opacity="0"/></g>
+<g id="west-normal-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="252" width="8" height="8" opacity="0"/></g>
+<g id="west-normal-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="252" width="8" height="1" opacity="0"/></g>
+<g id="west-normal-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="252" width="8" height="1.5" opacity="0"/><rect x="26.0" y="252" width="4" height="1.5" opacity="0.35"/></g>
+<g id="west-normal-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="252" width="1" height="8" opacity="0"/></g>
+<g id="west-normal-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="252" width="1" height="8" opacity="0"/></g>
+<g id="west-normal-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="252" width="1" height="1" opacity="0"/></g>
+<g id="west-normal-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="252" width="1" height="1" opacity="0"/></g>
+<g id="west-normal-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="252" width="1" height="1.5" opacity="0"/></g>
+<g id="west-normal-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="252" width="1" height="1.5" opacity="0"/></g>
+<g id="west-hover-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="266" width="8" height="8" opacity="0"/></g>
+<g id="west-hover-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="266" width="8" height="1" opacity="0"/></g>
+<g id="west-hover-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="266" width="8" height="1.5" opacity="0"/><rect x="26.0" y="266" width="4" height="1.5" opacity="0.6"/></g>
+<g id="west-hover-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="266" width="1" height="8" opacity="0"/></g>
+<g id="west-hover-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="266" width="1" height="8" opacity="0"/></g>
+<g id="west-hover-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="266" width="1" height="1" opacity="0"/></g>
+<g id="west-hover-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="266" width="1" height="1" opacity="0"/></g>
+<g id="west-hover-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="266" width="1" height="1.5" opacity="0"/></g>
+<g id="west-hover-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="266" width="1" height="1.5" opacity="0"/></g>
+<g id="west-focus-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="280" width="8" height="8" opacity="0"/></g>
+<g id="west-focus-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="280" width="8" height="1" opacity="0"/></g>
+<g id="west-focus-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="280" width="8" height="1.5" opacity="0"/><rect x="26.0" y="280" width="4" height="1.5" opacity="1.0"/></g>
+<g id="west-focus-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="280" width="1" height="8" opacity="0"/></g>
+<g id="west-focus-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="280" width="1" height="8" opacity="0"/></g>
+<g id="west-focus-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="280" width="1" height="1" opacity="0"/></g>
+<g id="west-focus-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="280" width="1" height="1" opacity="0"/></g>
+<g id="west-focus-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="280" width="1" height="1.5" opacity="0"/></g>
+<g id="west-focus-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="280" width="1" height="1.5" opacity="0"/></g>
+<g id="west-minimized-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="294" width="8" height="8" opacity="0"/></g>
+<g id="west-minimized-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="294" width="8" height="1" opacity="0"/></g>
+<g id="west-minimized-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="294" width="8" height="1.5" opacity="0"/><rect x="26.0" y="294" width="4" height="1.5" opacity="0.25"/></g>
+<g id="west-minimized-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="294" width="1" height="8" opacity="0"/></g>
+<g id="west-minimized-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="294" width="1" height="8" opacity="0"/></g>
+<g id="west-minimized-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="294" width="1" height="1" opacity="0"/></g>
+<g id="west-minimized-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="294" width="1" height="1" opacity="0"/></g>
+<g id="west-minimized-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="294" width="1" height="1.5" opacity="0"/></g>
+<g id="west-minimized-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="294" width="1" height="1.5" opacity="0"/></g>
+<g id="west-attention-center" class="ColorScheme-NegativeText" fill="currentColor"><rect x="0" y="308" width="8" height="8" opacity="0"/></g>
+<g id="west-attention-top" class="ColorScheme-NegativeText" fill="currentColor"><rect x="12" y="308" width="8" height="1" opacity="0"/></g>
+<g id="west-attention-bottom" class="ColorScheme-NegativeText" fill="currentColor"><rect x="24" y="308" width="8" height="1.5" opacity="0"/><rect x="26.0" y="308" width="4" height="1.5" opacity="0.85"/></g>
+<g id="west-attention-left" class="ColorScheme-NegativeText" fill="currentColor"><rect x="36" y="308" width="1" height="8" opacity="0"/></g>
+<g id="west-attention-right" class="ColorScheme-NegativeText" fill="currentColor"><rect x="41" y="308" width="1" height="8" opacity="0"/></g>
+<g id="west-attention-topleft" class="ColorScheme-NegativeText" fill="currentColor"><rect x="46" y="308" width="1" height="1" opacity="0"/></g>
+<g id="west-attention-topright" class="ColorScheme-NegativeText" fill="currentColor"><rect x="51" y="308" width="1" height="1" opacity="0"/></g>
+<g id="west-attention-bottomleft" class="ColorScheme-NegativeText" fill="currentColor"><rect x="56" y="308" width="1" height="1.5" opacity="0"/></g>
+<g id="west-attention-bottomright" class="ColorScheme-NegativeText" fill="currentColor"><rect x="61" y="308" width="1" height="1.5" opacity="0"/></g>
+<g id="west-progress-center" class="ColorScheme-Text" fill="currentColor"><rect x="0" y="322" width="8" height="8" opacity="0"/></g>
+<g id="west-progress-top" class="ColorScheme-Text" fill="currentColor"><rect x="12" y="322" width="8" height="1" opacity="0"/></g>
+<g id="west-progress-bottom" class="ColorScheme-Text" fill="currentColor"><rect x="24" y="322" width="8" height="1.5" opacity="0"/></g>
+<g id="west-progress-left" class="ColorScheme-Text" fill="currentColor"><rect x="36" y="322" width="1" height="8" opacity="0"/></g>
+<g id="west-progress-right" class="ColorScheme-Text" fill="currentColor"><rect x="41" y="322" width="1" height="8" opacity="0"/></g>
+<g id="west-progress-topleft" class="ColorScheme-Text" fill="currentColor"><rect x="46" y="322" width="1" height="1" opacity="0"/></g>
+<g id="west-progress-topright" class="ColorScheme-Text" fill="currentColor"><rect x="51" y="322" width="1" height="1" opacity="0"/></g>
+<g id="west-progress-bottomleft" class="ColorScheme-Text" fill="currentColor"><rect x="56" y="322" width="1" height="1.5" opacity="0"/></g>
+<g id="west-progress-bottomright" class="ColorScheme-Text" fill="currentColor"><rect x="61" y="322" width="1" height="1.5" opacity="0"/></g>
+<g id="hint-stretch-borders"><rect x="0" y="340" width="1" height="1" opacity="0"/></g>
+</svg>

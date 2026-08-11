@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Id": "plasma-jui",
+        "Name": "Plasma Jui",
+        "Description": "Breeze Dark sem fundo nas tarefas, com linha inferior no app focado",
+        "License": "LGPL",
+        "Version": "1.0",
+        "EnabledByDefault": true,
+        "Category": ""
+    },
+    "X-Plasma-API": "5.0"
+}

@@ -98,7 +98,7 @@ def main():
         if vol:
             extra = read_key(lines, start, end, "extraItems")
 
-            if extra and VOL not in extra:
+            if VOL not in extra:
                 end = set_key(lines, start, end, "extraItems", ",".join(extra + [VOL]))
 
             shown = read_key(lines, start, end, "shownItems")

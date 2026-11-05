@@ -20,17 +20,22 @@ kquitapp6 plasmashell 2>/dev/null || true
 sleep 2
 
 echo "==> limpando a bandeja do sistema"
-python3 "$REPO/bin/limpar-bandeja.py"
+if kpackagetool6 -t Plasma/Applet --list 2>/dev/null | grep -qx dev.juicerq.vol; then
+	python3 "$REPO/bin/limpar-bandeja.py" --vol
+else
+	python3 "$REPO/bin/limpar-bandeja.py"
+fi
 
-echo "==> ajustando animacoes e bordas de tela"
-kwriteconfig6 --file kdeglobals --group KDE --key AnimationDurationFactor 0
+echo "==> ajustando bordas de tela"
 kwriteconfig6 --file kdeglobals --group General --key accentColorFromWallpaper false
 kwriteconfig6 --file kwinrc --group ScreenEdges --key TimeThreshold 0
 kwriteconfig6 --file kwinrc --group ScreenEdges --key ReActivationThreshold 0
 qdbus6 org.kde.KWin /KWin reconfigure
 
-echo "==> movendo as notificacoes para o topo"
+echo "==> ajustando as notificacoes"
 kwriteconfig6 --file plasmanotifyrc --group Notifications --key PopupPosition TopCenter
+kwriteconfig6 --file plasmanotifyrc --group Notifications --key PopupTimeout 3000
+kwriteconfig6 --file plasmanotifyrc --group Badges --key InTaskManager false
 
 echo "==> iniciando plasmashell"
 setsid plasmashell >/dev/null 2>&1 </dev/null &
@@ -51,13 +56,19 @@ panels().forEach(function (panel) {
 			|| widget.type == "org.kde.plasma.showdesktop") {
 			widget.remove();
 		}
+
+		if (widget.type == "org.kde.plasma.icontasks") {
+			widget.currentConfigGroup = ["General"];
+			widget.writeConfig("groupingStrategy", 0);
+		}
 	});
 
 	panel.location = "bottom";
 	panel.lengthMode = "fit";
 	panel.floating = true;
-	panel.hiding = "autohide";
-	panel.height = 30;
+	panel.hiding = "dodgewindows";
+	panel.opacity = "opaque";
+	panel.height = 38;
 });
 '
 

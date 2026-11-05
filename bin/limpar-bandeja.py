@@ -17,7 +17,12 @@ HIDDEN = [
     "org.kde.kdeconnect",
     "org.kde.plasma.keyboardindicator",
     "org.kde.plasma.weather",
+    "org.kde.plasma.bluetooth",
+    "org.kde.plasma.networkmanagement",
+    "plasmashell_microphone",
 ]
+
+VOL = "dev.juicerq.vol"
 
 
 def systray_sections(lines):
@@ -37,7 +42,32 @@ def systray_sections(lines):
     return found
 
 
+def set_key(lines, start, end, key, value):
+    target = next(
+        (i for i in range(start, end) if lines[i].startswith(key + "=")),
+        None,
+    )
+
+    if target is None:
+        lines.insert(end, f"{key}={value}")
+        return end + 1
+
+    lines[target] = f"{key}={value}"
+    return end
+
+
+def read_key(lines, start, end, key):
+    for i in range(start, end):
+        if lines[i].startswith(key + "="):
+            return [item for item in lines[i].split("=", 1)[1].split(",") if item]
+
+    return []
+
+
 def main():
+    vol = "--vol" in sys.argv[1:]
+    hidden = HIDDEN + ["org.kde.plasma.volume"] if vol else HIDDEN
+
     if not os.path.exists(CONFIG):
         sys.exit(f"config nao encontrada: {CONFIG}")
 
@@ -47,10 +77,9 @@ def main():
     if not sections:
         sys.exit("nenhuma bandeja do sistema encontrada")
 
-    hidden_line = "hiddenItems=" + ",".join(HIDDEN)
     changed = 0
 
-    for section, known_index in sections.items():
+    for known_index in sorted(sections.values(), reverse=True):
         start = known_index
 
         while start > 0 and not lines[start].startswith("["):
@@ -61,15 +90,21 @@ def main():
         while end < len(lines) and not lines[end].startswith("["):
             end += 1
 
-        target = next(
-            (i for i in range(start, end) if lines[i].startswith("hiddenItems=")),
-            None,
-        )
+        while end > start + 1 and not lines[end - 1].strip():
+            end -= 1
 
-        if target is None:
-            lines.insert(known_index, hidden_line)
-        else:
-            lines[target] = hidden_line
+        end = set_key(lines, start, end, "hiddenItems", ",".join(hidden))
+
+        if vol:
+            extra = read_key(lines, start, end, "extraItems")
+
+            if extra and VOL not in extra:
+                end = set_key(lines, start, end, "extraItems", ",".join(extra + [VOL]))
+
+            shown = read_key(lines, start, end, "shownItems")
+
+            if VOL not in shown:
+                end = set_key(lines, start, end, "shownItems", ",".join(shown + [VOL]))
 
         changed += 1
 
